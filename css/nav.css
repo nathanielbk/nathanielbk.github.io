@@ -1,0 +1,54 @@
+/*Navigation bar, main*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    height: auto;
+    z-index: 1;
+  }
+  
+  /*Nav bar, boxes*/
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 40px;
+  }
+  
+  /*Hovering over boxes in nav bar*/
+  .hover:hover {
+    background-color: rgb(217, 141, 0);
+    color: white;
+  }
+  
+  /*Cursor on topical button*/
+  .cursor {
+    cursor: help; /*noen / not-allowed / help*/
+  }
+  
+  /*Nav bar, active button*/
+  .topnav a.active {
+    color: orange;
+  }
+  
+  /*The logo in nav bar*/
+  .logo {
+    background-image: url("/bilder/62.jpeg");
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+  }
+
+  @media screen and (max-width: 500px) {
+    /* Navigation bar */
+    .topnav a {
+      padding: 10px 3%;
+      font-size: 3.4vw;
+    }
+  }

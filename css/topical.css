@@ -1,0 +1,251 @@
+/* Font for entire page */
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* CSS for navigation bar is under nav.css */
+
+/* The following content is inspirated by lecture 6, DATA1200 */
+
+/* Full screen element */
+.entire-screen {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+/* Text box on each slide */
+.text-boxes {
+  width: 65%; /*60vw*/
+  top: 50%;
+  margin-left: 20px; /*2 rem*/
+  padding: 20px;
+  position: absolute;
+  transform: translateY(-50%);
+  box-shadow: 3px 3px 40px rgb(255, 255, 255);
+  backdrop-filter: blur(20px);
+}
+
+/* Heading first slide */
+h1 {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  font-weight: normal;
+  padding-bottom: 10px;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* Heading in each text box */
+h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black;
+  font-weight: normal;
+}
+
+/* Under h2 */
+.click-info {
+  font-size: 10px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  padding-bottom: 5px;
+}
+
+/* The heading links in the text boxes */
+h2 > a {
+  font-size: 30px;
+  text-decoration-thickness: 2px;
+  color: white;
+}
+
+/* Hovering over the heading/link */
+h2 > a:hover {
+  color: rgb(255, 145, 0);
+}
+
+/*The text in each text box*/
+.text-boxes > p {
+  font-size: 20px;
+  line-height: 1.4;
+  text-shadow: 2px 2px 5px black;
+  box-sizing: border-box;
+  color: white;
+}
+
+/*Links at the bottom of the text boxes*/
+.info-link {
+  font-size: 14px;
+  color: white;
+  text-shadow: none;
+}
+
+.info-link:hover {
+  color: rgb(255, 145, 0);
+}
+
+/* First slide screen - Social Media */
+#slide1 {
+  background-color: rgb(217, 141, 0);
+  z-index: 1;
+}
+
+/* Second slide screen - Facebook */
+#slide2 {
+  background: linear-gradient(
+    rgb(217, 141, 0),
+    rgb(0, 136, 255),
+    rgb(0, 136, 255)
+  );
+  z-index: 1;
+}
+
+/* Third slide screen - Twitter */
+#slide3 {
+  background: linear-gradient(
+    rgb(0, 136, 255),
+    rgb(44, 107, 144),
+    rgb(44, 107, 144)
+  );
+  z-index: 1;
+}
+
+/* Fourth slide screen - Instagram */
+#slide4 {
+  background: linear-gradient(
+    rgb(44, 107, 144),
+    rgb(139, 0, 132),
+    rgb(217, 141, 0)
+  );
+  z-index: 1;
+}
+
+/* Fifth slide screen - Snapchat */
+#slide5 {
+  background: linear-gradient(
+    rgb(217, 141, 0),
+    rgb(217, 141, 0),
+    rgb(72, 152, 125)
+  );
+  z-index: 1;
+}
+
+/* Last slide screen - Conclusion */
+/* Image from: https://www.pngall.com/social-media-png */
+#slide6 {
+  background-color: rgb(72, 152, 125);
+  background-image: url(/images/SocialMedia.png);
+  background-size: 400px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+/* Sources slide */
+#slide7 {
+  background-color: rgb(72, 152, 125);
+  background-image: url(/images/SocialMedia.png);
+  background-size: 400px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+/* Positioning the picture to the right of the text boxes */
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* The pictures to the right of the text boxes */
+.media-logo {
+  width: 25%;
+  align-content: center;
+  margin-right: 10px;
+}
+
+/* The list for references */
+ol {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* Each source */
+li {
+  padding-bottom: 5px;
+}
+
+/* Link in source */
+li > a {
+  color: rgb(0, 0, 194);
+  text-shadow: none;
+  margin-left: 20px;
+}
+
+/* Hover over link */
+li > a:hover {
+  color: rgb(217, 141, 0);
+}
+
+@media screen and (max-width: 650px) {
+  /* Heading first slide */
+  h1 {
+    font-size: 4.6vw;
+  }
+
+  /* Heading in each text box */
+  h2 {
+    font-size: 4.5vw;
+  }
+
+  /* The heading links in the text boxes */
+  h2 > a {
+    font-size: 4.5vw;
+  }
+
+  /* The text in each text box */
+  .text-boxes > p {
+    font-size: 2.8vw;
+  }
+
+  /* The list for references */
+  ol {
+    font-size: 2.8vw;
+  }
+
+  /* Link in source */
+  li > a {
+    font-size: 2.8vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Navigation bar */
+  .topnav a {
+    padding: 10px 3%;
+    font-size: 3.4vw;
+  }
+
+  /* The text in each text box */
+  .text-boxes > p {
+    font-size: 14px;
+  }
+  /* The list for references */
+  ol {
+    font-size: 14px;
+  }
+}

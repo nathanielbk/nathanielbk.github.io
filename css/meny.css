@@ -1,0 +1,66 @@
+
+/* MENY */
+article > div {
+  align-items: center;
+  display: flex;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+article > p {
+  padding-bottom: 10px;
+}
+
+/* All the food, and the drinks. */
+.food-group {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding-top: 20px;
+}
+
+/* Forrett, hovedrett, dessert, kaffa osv. */
+.singel-food-group{
+  width: 370px;
+  padding-bottom: 50px;
+  margin: 50px;
+}
+
+
+/*Button holder for the menu*/
+.button-holder-meny{
+  width: 350px;
+  text-align: center;
+  margin: auto;
+}
+
+/* space for the button*/
+#space-button{
+margin-top: 50px;
+}
+
+button{
+  margin-top: 10px;
+}
+
+
+/*Decoration for allergy paragraph*/
+.allergener {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 14px;
+  color: rgb(128, 128, 128);
+}
+
+/*Code for button is in main :)*/
+
+/* 1190px shous 3 food groups side by side, after */
+@media screen and (max-width: 1440px)
+{
+  .singel-food-group{
+    width: 60%;
+    padding-bottom: 35px;
+  }
+
+}
