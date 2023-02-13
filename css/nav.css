@@ -1,4 +1,10 @@
 /*Navigation bar, main*/
+
+index > .topnav{
+  background-color: rgb(217, 163, 163);
+
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -7,9 +13,10 @@
     height: auto;
     z-index: 1;
   }
-  
+
   /*Nav bar, boxes*/
   .topnav a {
+    
     float: left;
     color: #f2f2f2;
     text-align: center;
