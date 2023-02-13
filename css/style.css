@@ -4,7 +4,6 @@
     margin: 0;
   }
   html, body{
-   
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
   }
@@ -19,29 +18,9 @@ body{
     
 }
 
-.card{
-    width: 360;
-    border-radius: 10px;
-}
 
-.swiper-slide{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0 0px;
-}
-
-.swiper, .swiper-pagination, .swiper-pagination-bullet {
-    background: #ffffff;
-}
-
-.swper-horizontal, .swiper-pagination-bullets, .swiper-pagination-hotizontal{
-    bottom: 0px;
-}
 
 /* here you will find pictures and picture text*/ 
-
 /* Hero image index*/
 .hero-image {
   background-image:url("/images/pexels-matt-hardy-2658452.jpg");
@@ -83,12 +62,10 @@ body{
 
 
 /* The pictures on INDEX */
-
 /* Image from: https://www.pexels.com/photo/houses-in-the-mountains-5204801/ */
 .image-booking {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.183);
   background-image:url("/images/pexels-anastasiia-horbachenko-5204801.jpg");
-
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -169,6 +146,63 @@ background-size: cover;
 position: relative;
 }
 
+
+/*Navigation bar, main*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  height: auto;
+  z-index: 1;
+}
+
+/*Nav bar, boxes*/
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 40px;
+}
+
+/*Hovering over boxes in nav bar*/
+.hover:hover {
+  background-color: rgb(217, 141, 0);
+  color: white;
+}
+
+/*Cursor on topical button*/
+.cursor {
+  cursor: help; /*noen / not-allowed / help*/
+}
+
+/*Nav bar, active button*/
+.topnav a.active {
+  color: orange;
+}
+
+/*The logo in nav bar*/
+.logo {
+  background-image: url("/bilder/62.jpeg");
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+}
+
+@media screen and (max-width: 500px) {
+  /* Navigation bar */
+  .topnav a {
+    padding: 10px 3%;
+    font-size: 3.4vw;
+  }
+}
+
+
 /* Footer at the bottom of the page with info */
 footer {
   margin-top: 40px;
@@ -217,7 +251,6 @@ footer {
 
 /* New layout when screen is 500px wide */
 @media screen and (max-width: 500px) {
-
   .footer-boxes {
     flex-direction: column;
     align-items: center;
