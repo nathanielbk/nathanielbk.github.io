@@ -1,77 +1,77 @@
 /* Bilderamme indelingen*/
-  .index-box {
-    flex: 1;
-    height: 500px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 20px;   
-  }
+.index-box {
+  flex: 1;
+  height: 500px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;   
+}
+.hero-image h1{
+  color: rgb(185, 134, 40);
+  text-align: center;
+  font-size: 5.5vw;
+  text-shadow: 1px 1px #000000;
+  margin-bottom: 4px;
+}
+h2 a {
+  text-decoration: none; /* no underline */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  text-decoration: none;
+  text-shadow: 0.5px 0.5px #000000;
+  padding: 1.8%;
+  font-size:calc(15px + 2vw);
+}
 
+h2 a:hover {
+  color:#d98d00c1
+}
 
-@media screen and (max-width: 540px){
-  .index-box{
-    height: 250px;
-  }
+.index-image{
+  height: 200%;
 }
 
 
-/* Headline*/
+/* code for the 4 pages*/
+/* Text under the topics*/
+.index-box p{
+  font-size: 20px;
+  color: aliceblue;
+  text-shadow: 1px 1px #000000;
+}
+ 
+/* Hero text for every herto picture */
+.hero-text > p{
+  font-size: 1.4vw;
+}
 
-  /* code for the 4 pages*/
-  
-  /* Text under the topics*/
-  .index-box p{
-    font-size: 20px;
-    color: aliceblue;
-    text-shadow: 1px 1px #000000;
+/* Større bilder for stor skjerm */
+@media screen and (min-width: 2000px){
+  .index-box{
+    height: 750px;
   }
+}
 
-  /* Display names in line*/
-  .index-box li{
-    display:inline;
-  }
-  .index-box li a{
-    display:inline-block;
-    padding: 1.8%;
-    font-size:calc(15px + 2vw);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
-    text-decoration: none;
-    text-shadow: 0.5px 0.5px #000000;
-  }
-  .index-box li a:hover {
-    color:#d98d00c1
-  }
-  
-  /* Hero text for every herto picture */
-  .hero-text > p{
-    font-size: 1.5vw;
-  }
-
-
-/* Page sections in row */
-@media screen and (min-width: 1200px){
+/* For mindre skermerer (Ipad pro og ned), 
+vis index bilder under hverandre  */
+@media screen and (min-width: 1370px){
   .text-division {
     display: flex;
   }
 }
 
-/* Text on under page heading, fits´s all screens */
-@media screen and (max-width: 1200px){
-  .hero-text > p {
-    font-size: 2vw;
+@media screen and (max-width: 1370px){
+  .hero-text > p{
+    font-size: 2.5vw;
   }
-}
-@media screen and (max-width: 400px){
-  .hero-text > p {
-    font-size: 5vw;
+  .hero-image h1{
+    font-size: 6vw;
   }
 }
 
-@media screen and (max-width: 540px){
-  h1{
-    font-size: 5vw;
-}
-
-
+/* Lavere bilder for mobil - mer scrolle vennlig */
+@media screen and (max-width: 550px){
+  .index-box{
+    height: 250px;
+  }
 }

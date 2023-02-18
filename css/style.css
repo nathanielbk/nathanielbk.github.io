@@ -1,24 +1,18 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  html, body{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  place-items: center;
+}
+
+html, body{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
   
 .introduction{
   letter-spacing: 1px;
 }
-
-body{
-    margin: 0;
-    place-items: center;
-    
-}
-
-
 
 /* here you will find pictures and picture text*/ 
 /* Hero image index*/
@@ -29,14 +23,6 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-.hero-image h1{
-  color: rgb(185, 134, 40);
-  text-align: center;
-  font-size: 5vw;
-  text-shadow: 1px 1px #000000;
-  margin-bottom: 4px;
 }
 
 .hero-text {
@@ -208,8 +194,7 @@ position: relative;
     padding: 10px 3%;
     font-size: 3.4vw;
   }
-}
-
+} 
 
 /* Footer at the bottom of the page with info */
 footer {
