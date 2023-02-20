@@ -12,10 +12,34 @@ html, body{
   
 .introduction{
   letter-spacing: 1px;
+  padding-top: 20px;
+  width: 50%;
+  margin: auto;
 }
 
-.articel{
+.introduction> p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .introduction{
+    width: 70%;
+  }
+}
+
+/* center*/ 
+.center{
+  margin: auto;
+}
+
+
+/* text colour */ 
+.orange{
+  color: #d98d00;
+  }
   
+.green{
+  color: #008000;
 }
 
 /* here you will find pictures and picture text*/ 
@@ -208,7 +232,26 @@ position: relative;
     padding: 10px 3%;
     font-size: 3.4vw;
   }
-} 
+}
+
+/* - BUTTON - */
+/*Button, on booking and meny*/
+.button {
+  background-color: rgba(217, 141, 0, 0.228);
+  border: 5px solid rgb(217, 141, 0);
+  color: rgb(175, 114, 0);
+  padding: 15px 32px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover{
+  color: white;
+  border-style: inset;
+  background-color: rgb(174, 113, 0);
+}
 
 
 /* - FOTTER - */ 
