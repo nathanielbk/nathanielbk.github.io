@@ -14,6 +14,10 @@ html, body{
   letter-spacing: 1px;
 }
 
+.articel{
+  
+}
+
 /* here you will find pictures and picture text*/ 
 /* Hero image index*/
 .hero-image {
@@ -100,7 +104,6 @@ html, body{
   position: relative;
 }
 
-
 /* Hero image on pages + text */
 .hero-page-text{
 font-size:calc(6vw + 15px);
@@ -138,6 +141,18 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-image-booking,.hero-image-meny, .hero-image-accessibility {
+    height: 40vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  .hero-image-booking,.hero-image-meny, .hero-image-accessibility {
+    height: 60vw;
+    }
 }
 
 
@@ -180,7 +195,6 @@ position: relative;
 
 /*The logo in nav bar*/
 .logo {
-  background-image: url("/bilder/62.jpeg");
   height: 40px;
   background-position: center;
   background-repeat: no-repeat;
@@ -196,6 +210,8 @@ position: relative;
   }
 } 
 
+
+/* - FOTTER - */ 
 /* Footer at the bottom of the page with info */
 footer {
   margin-top: 40px;
