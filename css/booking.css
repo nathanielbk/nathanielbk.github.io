@@ -1,82 +1,76 @@
-/*The code for the page BOOKING*/
+/* The code for the page BOOKING */
 
-
-/*sections for ul-list*/
-#list{
-    padding-left: 30px;
-    padding-top: 5px;
+/* Sections for ul-list */
+#list {
+  padding-left: 30px;
+  padding-top: 5px;
 }
 
-/*Code for the booking-form and map, container*/
-.form-map{
-    padding-top: 30px;
-    width: 50%;
-    margin: auto;
+/* Code for the booking-form and map, container */
+.form-map {
+  padding-top: 30px;
+  width: 50%;
+  margin: auto;
 }
 
-.grid-container { 
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-} 
-
-/*The google map*/
-.gmap{
-    width: 500px;
-    height: 500px;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-/*Booking-form*/
+/* The google map */
+.gmap {
+  width: 500px;
+  height: 500px;
+}
 
+/* Booking-form */
 form {
-    display: grid;
-    grid-row-gap: 15px;
-    margin: auto;
-    padding-top: 10px;
+  display: grid;
+  grid-row-gap: 15px;
+  margin: auto;
+  padding-top: 10px;
 }
 
 form p {
-    font-weight: 600;
-    padding-bottom: 3px;
+  font-weight: 600;
+  padding-bottom: 3px;
 }
 
-
-/*select and input code*/
-input,select {
-padding: 10px 10px;
-width: 250px;
+/* Select and input code */
+input,
+select {
+  padding: 10px 10px;
+  width: 250px;
 }
 
-
-/*Code for button is in main :)*/
-
+/* Code for button is in style.css */
 
 /*Media screen*/
 
 /*Map size when 1499px*/
-@media screen and (max-width: 1530px){
-    /*Kart mindre*/
-    .gmap{
-        width: 250px;
-        height: 250px;
-    }
+@media screen and (max-width: 1530px) {
+  /*Kart mindre*/
+  .gmap {
+    width: 250px;
+    height: 250px;
+  }
 }
 
-
-
 /*Map and form in row, as well as map size adjust when 1019px*/
-@media screen and (max-width: 1020px){
-    .gmap{
-        width: 100%;
-        text-align: center;
-    }
-    
-    .grid-container { 
-    display:block;
-    justify-content: center; 
+@media screen and (max-width: 1020px) {
+  .gmap {
+    width: 100%;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: block;
+    justify-content: center;
     margin: auto;
-    } 
-    
-    form{
-    justify-content: center; 
-    }
+  }
+
+  form {
+    justify-content: center;
+  }
 }

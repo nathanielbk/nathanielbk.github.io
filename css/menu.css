@@ -1,4 +1,4 @@
-/* MENY */
+/* Menu */
 article > div {
   align-items: center;
   display: flex;
@@ -18,8 +18,8 @@ article > p {
   align-items: stretch;
 }
 
-/* Forrett, hovedrett, dessert, kaffa osv. */
-.singel-food-group{
+/* Forrett, hovedrett, dessert, kaffe, etc. */
+.singel-food-group {
   width: 20%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -27,24 +27,23 @@ article > p {
   margin-right: 50px;
 }
 
-/*Button holder for the menu*/
-.button-holder-meny{
+/* Button holder for the menu */
+.button-holder-meny {
   width: 350px;
   text-align: center;
   margin: auto;
 }
 
-/* space for the button*/
-#space-button{
-margin-top: 50px;
+/* Space for the button */
+#space-button {
+  margin-top: 50px;
 }
 
-button{
+button {
   margin-top: 10px;
 }
 
-
-/*Decoration for allergy paragraph*/
+/* Decoration for allergy paragraph */
 .allergener {
   margin-top: 15px;
   text-align: left;
@@ -52,11 +51,10 @@ button{
   color: rgb(128, 128, 128);
 }
 
-/* after 1000px the 3 food grups are displayed under amnd over ectother
-- makes a more phone friendly expirinace */
-@media screen and (max-width: 1000px)
-{
-  .singel-food-group{
+/* After 1000px the 3 food groups are displayed under and over eachother
+- makes a more phone friendly experience */
+@media screen and (max-width: 1000px) {
+  .singel-food-group {
     width: 400px;
   }
 
@@ -64,5 +62,4 @@ button{
     margin-left: 0px;
     margin-right: 0px;
   }
-
 }
