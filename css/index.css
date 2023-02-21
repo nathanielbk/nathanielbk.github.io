@@ -4,15 +4,17 @@
   height: 500px;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 20px;   
+  margin-top: 20px;
 }
-.hero-image h1{
+
+.hero-image h1 {
   color: rgb(185, 134, 40);
   text-align: center;
   font-size: 5.5vw;
   text-shadow: 1px 1px #000000;
   margin-bottom: 4px;
 }
+
 h2 a {
   text-decoration: none; /* no underline */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,62 +22,62 @@ h2 a {
   text-decoration: none;
   text-shadow: 0.5px 0.5px #000000;
   padding: 1.8%;
-  font-size:calc(15px + 2vw);
+  font-size: calc(15px + 2vw);
 }
 
 h2 a:hover {
-  color:#d98d00c1
+  color: #d98d00c1;
 }
 
-.index-image{
+.index-image {
   height: 200%;
 }
 
-#frame-index{
+#frame-index {
   margin: 15px;
 }
 
+/* Code for the 4 pages*/
 
-/* code for the 4 pages*/
 /* Text under the topics*/
-.index-box p{
+.index-box p {
   font-size: 20px;
   color: aliceblue;
   text-shadow: 1px 1px #000000;
 }
- 
+
 /* Hero text for every herto picture */
-.hero-text > p{
+.hero-text > p {
   font-size: 1.4vw;
 }
 
 /* Større bilder for stor skjerm */
-@media screen and (min-width: 2000px){
-  .index-box{
+@media screen and (min-width: 2000px) {
+  .index-box {
     height: 750px;
   }
 }
 
 /* For mindre skermerer (Ipad pro og ned), 
 vis index bilder under hverandre  */
-@media screen and (min-width: 1370px){
+@media screen and (min-width: 1370px) {
   .text-division {
     display: flex;
   }
 }
 
-@media screen and (max-width: 1370px){
-  .hero-text > p{
+@media screen and (max-width: 1370px) {
+  .hero-text > p {
     font-size: 2.5vw;
   }
-  .hero-image h1{
+  .hero-image h1 {
     font-size: 6vw;
   }
 }
 
 /* Lavere bilder for mobil - mer scrolle vennlig */
-@media screen and (max-width: 550px){
-  .index-box{
+@media screen and (max-width: 550px) {
+  .index-box {
     height: 250px;
   }
 }
