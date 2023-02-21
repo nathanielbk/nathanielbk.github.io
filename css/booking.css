@@ -18,6 +18,11 @@
   grid-template-columns: 1fr 1fr;
 }
 
+/* Center */
+.center {
+  margin: auto;
+}
+
 /* The google map */
 .gmap {
   width: 500px;
