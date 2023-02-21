@@ -4,9 +4,9 @@
   height: 500px;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 20px;   
+  margin-top: 20px;
 }
-.hero-image h1{
+.hero-image h1 {
   color: rgb(185, 134, 40);
   text-align: center;
   font-size: 5.5vw;
@@ -20,40 +20,28 @@ h2 a {
   text-decoration: none;
   text-shadow: 0.5px 0.5px #000000;
   padding: 1.8%;
-  font-size:calc(15px + 2vw);
+  font-size: calc(15px + 2vw);
 }
 
 h2 a:hover {
-  color:#d98d00c1
+  color: #d98d00c1;
 }
 
-.index-image{
+.index-image {
   height: 200%;
 }
 
-#frame-index{
+#frame-index {
   margin: 15px;
 }
 
-
 /* code for the 4 pages*/
 /* Text under the topics*/
-.index-box p{
+.index-box p {
   font-size: 20px;
   color: aliceblue;
   text-shadow: 1px 1px #000000;
 }
-<<<<<<< Updated upstream
- 
-/* Hero text for every herto picture */
-.hero-text > p{
-  font-size: 1.4vw;
-}
-
-/* Større bilder for stor skjerm */
-@media screen and (min-width: 2000px){
-  .index-box{
-=======
 
 /* Hero text for every hero picture */
 .hero-text > p {
@@ -63,43 +51,30 @@ h2 a:hover {
 /* Bigger picture for large screens */
 @media screen and (min-width: 2000px) {
   .index-box {
->>>>>>> Stashed changes
     height: 750px;
   }
 }
 
-<<<<<<< Updated upstream
-/* For mindre skermerer (Ipad pro og ned), 
-vis index bilder under hverandre  */
-@media screen and (min-width: 1370px){
-=======
 /* For smaller screens (Ipad pro and down), 
 view index picture under each other  */
 @media screen and (min-width: 1370px) {
->>>>>>> Stashed changes
   .text-division {
     display: flex;
   }
 }
 
-@media screen and (max-width: 1370px){
-  .hero-text > p{
+@media screen and (max-width: 1370px) {
+  .hero-text > p {
     font-size: 2.5vw;
   }
-  .hero-image h1{
+  .hero-image h1 {
     font-size: 6vw;
   }
 }
 
-<<<<<<< Updated upstream
-/* Lavere bilder for mobil - mer scrolle vennlig */
-@media screen and (max-width: 550px){
-  .index-box{
-=======
 /* Less tall picture on phone - easier to scroll */
 @media screen and (max-width: 550px) {
   .index-box {
->>>>>>> Stashed changes
     height: 250px;
   }
 }
