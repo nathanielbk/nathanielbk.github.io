@@ -1,15 +1,5 @@
-/* Pictureframe division */
-.index-box {
-  flex: 1;
-  height: 500px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 20px;
-}
-
-/* Hero image index*/
+/* The "welcome" hero image */
 .hero-image {
-  /* BRUKES KUN I INDEX */
   background-image: url("/images/pexels-matt-hardy-2658452.jpg");
   height: 40vw; /* Var tidligere 55vw */
   background-position: center;
@@ -28,12 +18,33 @@
 
 /* Picture text for hero image Index */
 .picture-text-hero-image {
-  /* BRUEKS KUN I INDEX */
   color: rgba(0, 0, 0, 0.431);
   font-size: calc(9px + 0.5vw);
   position: absolute;
   bottom: 8px;
   left: 16px;
+}
+
+/* Section with the 4 pictures leading to the other pages */
+#frame-index {
+  margin: 15px;
+}
+
+/* For smaller screens (Ipad pro and down), 
+view index picture under each other  */
+@media screen and (min-width: 1370px) {
+  .text-division {
+    display: flex;
+  }
+}
+
+/* Pictureframe division */
+.index-box {
+  flex: 1;
+  height: 500px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
 }
 
 h2 a {
@@ -50,26 +61,19 @@ h2 a:hover {
   color: #d98d00c1;
 }
 
-.index-image {
-  height: 200%;
-}
-
-#frame-index {
-  margin: 15px;
-}
-
-/* code for the 4 pages*/
 /* Text under the topics*/
 .index-box p {
   font-size: 20px;
   color: aliceblue;
   text-shadow: 1px 1px #000000;
 }
-
+/* THESE ARE THE SAME: .index-box p (OVER) and .hero-text > p (UNDER) */
 /* Hero text for every following hero picture */
 .hero-text > p {
   font-size: 1.4vw;
 }
+
+/* THE 4 SEPARATE PICTURES ARE FURTHER DOWN */
 
 /* The pictures on Index */ /* DE 4 NESTE KLASSENE BRUKES KUN I INDEX */
 /* Image from: https://www.pexels.com/photo/houses-in-the-mountains-5204801/ */
@@ -123,26 +127,19 @@ h2 a:hover {
   }
 }
 
-/* For smaller screens (Ipad pro and down), 
-view index picture under each other  */
-@media screen and (min-width: 1370px) {
-  .text-division {
-    display: flex;
+/* Shorter picture on phone - easier to scroll */
+@media screen and (max-width: 550px) {
+  .index-box {
+    height: 250px;
   }
 }
 
+/* Making sure the heading and text doesn't get too small */
 @media screen and (max-width: 1370px) {
   .hero-text > p {
     font-size: 2.5vw;
   }
   .hero-image h1 {
     font-size: 6vw;
-  }
-}
-
-/* Shorter picture on phone - easier to scroll */
-@media screen and (max-width: 550px) {
-  .index-box {
-    height: 250px;
   }
 }
