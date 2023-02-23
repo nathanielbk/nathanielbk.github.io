@@ -1,4 +1,4 @@
-/* The "welcome" hero image */
+/* Frontpage hero image */
 .hero-image {
   background-image: url("/images/pexels-matt-hardy-2658452.jpg");
   height: 40vw; /* Var tidligere 55vw */
@@ -8,6 +8,7 @@
   position: relative;
 }
 
+/* Heading on hero image - "Velkommen" */
 .hero-image h1 {
   color: rgb(185, 134, 40);
   text-align: center;
@@ -16,7 +17,7 @@
   margin-bottom: 4px;
 }
 
-/* Picture text for hero image Index */
+/* Credit text in the corner on the pictures */
 .picture-text-hero-image {
   color: rgba(0, 0, 0, 0.431);
   font-size: calc(9px + 0.5vw);
@@ -33,12 +34,13 @@
 /* For smaller screens (Ipad pro and down), 
 view index picture under each other  */
 @media screen and (min-width: 1370px) {
+  /* MÅ ENDRES + TEKST STØRRELSE, VISES EN OG EN PÅ PC OGSÅ */
   .text-division {
     display: flex;
   }
 }
 
-/* Pictureframe division */
+/* Pictureframe division, the four pictures */
 .index-box {
   flex: 1;
   height: 500px;
@@ -47,6 +49,7 @@ view index picture under each other  */
   margin-top: 20px;
 }
 
+/* Links in the heading of each picture */
 h2 a {
   text-decoration: none; /* no underline */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -61,21 +64,47 @@ h2 a:hover {
   color: #d98d00c1;
 }
 
-/* Text under the topics*/
+/* Text under each heading */
 .index-box p {
   font-size: 20px;
   color: aliceblue;
   text-shadow: 1px 1px #000000;
 }
-/* THESE ARE THE SAME: .index-box p (OVER) and .hero-text > p (UNDER) */
+/* THESE TWO ARE THE SAME: .index-box p (OVER) and .hero-text > p (UNDER) AND
+   .hero-text isn't used for anything else - OBS: both are used further down 
+   (I moved them up to easier see) */
+
 /* Hero text for every following hero picture */
 .hero-text > p {
   font-size: 1.4vw;
 }
 
-/* THE 4 SEPARATE PICTURES ARE FURTHER DOWN */
+/* Bigger picture for large screens */
+@media screen and (min-width: 2000px) {
+  .index-box {
+    height: 750px;
+  }
+}
 
-/* The pictures on Index */ /* DE 4 NESTE KLASSENE BRUKES KUN I INDEX */
+/* Shorter picture on phone - easier to scroll */
+@media screen and (max-width: 550px) {
+  .index-box {
+    height: 250px;
+  }
+}
+
+/* Making sure the heading and text doesn't get too small */
+@media screen and (max-width: 1370px) {
+  .hero-text > p {
+    font-size: 2.5vw;
+  }
+  .hero-image h1 {
+    font-size: 6vw;
+  }
+}
+
+/* The following are the 4 separate pictures */
+
 /* Image from: https://www.pexels.com/photo/houses-in-the-mountains-5204801/ */
 .image-booking {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.183);
@@ -118,28 +147,4 @@ h2 a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-/* Bigger picture for large screens */
-@media screen and (min-width: 2000px) {
-  .index-box {
-    height: 750px;
-  }
-}
-
-/* Shorter picture on phone - easier to scroll */
-@media screen and (max-width: 550px) {
-  .index-box {
-    height: 250px;
-  }
-}
-
-/* Making sure the heading and text doesn't get too small */
-@media screen and (max-width: 1370px) {
-  .hero-text > p {
-    font-size: 2.5vw;
-  }
-  .hero-image h1 {
-    font-size: 6vw;
-  }
 }
