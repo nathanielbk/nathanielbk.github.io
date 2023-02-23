@@ -6,6 +6,18 @@
   margin-right: 5px;
   margin-top: 20px;
 }
+
+/* Hero image index*/
+.hero-image {
+  /* BRUKES KUN I INDEX */
+  background-image: url("/images/pexels-matt-hardy-2658452.jpg");
+  height: 40vw; /* Var tidligere 55vw */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .hero-image h1 {
   color: rgb(185, 134, 40);
   text-align: center;
@@ -72,7 +84,7 @@ view index picture under each other  */
   }
 }
 
-/* Less tall picture on phone - easier to scroll */
+/* Shorter picture on phone - easier to scroll */
 @media screen and (max-width: 550px) {
   .index-box {
     height: 250px;

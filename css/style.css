@@ -41,16 +41,6 @@ body {
 }
 
 /* Here you will find pictures and picture text*/
-/* Hero image index*/
-.hero-image {
-  /* BRUKES KUN I INDEX */
-  background-image: url("/images/pexels-matt-hardy-2658452.jpg");
-  height: 55vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
 .hero-text {
   /* BRUKES I FLERE FILER */
