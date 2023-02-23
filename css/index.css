@@ -66,9 +66,54 @@ h2 a:hover {
   text-shadow: 1px 1px #000000;
 }
 
-/* Hero text for every hero picture */
+/* Hero text for every following hero picture */
 .hero-text > p {
   font-size: 1.4vw;
+}
+
+/* The pictures on Index */ /* DE 4 NESTE KLASSENE BRUKES KUN I INDEX */
+/* Image from: https://www.pexels.com/photo/houses-in-the-mountains-5204801/ */
+.image-booking {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.183);
+  background-image: url("/images/pexels-anastasiia-horbachenko-5204801.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Image from: https://www.pexels.com/photo/black-rocky-mountain-under-the-blue-sky-5345384/ */
+.image-meny {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.183);
+  background-image: url("/images/pexels-liam-spicer-5345384.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Image from: https://www.pexels.com/photo/snow-sea-landscape-water-5334316/ */
+.image-accessibility {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.183);
+  background-image: url("/images/pexels-christian-pfeifer-5334316.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Image from: https://www.pexels.com/photo/back-view-of-a-person-walking-along-the-seashore-2602545/ */
+.image-topical {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.183);
+  background-image: url("/images/pexels-matt-hardy-2602545.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Bigger picture for large screens */
