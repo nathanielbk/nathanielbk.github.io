@@ -3,6 +3,7 @@ p {
   margin-bottom: 10px;
 }
 
+/* Image width to match text width */
 img {
   width: 100%;
 }

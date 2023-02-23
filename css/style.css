@@ -67,8 +67,8 @@ body {
   }
 }
 
+/* Used in accessibility and booking */
 .introduction {
-  /* BRUKES KUN I ACCESSIBILITY OG BOOKING */
   letter-spacing: 1px;
   padding-top: 20px;
   padding-left: 10px;
@@ -96,8 +96,7 @@ body {
   color: #008000;
 }
 
-/* The following is hero-image/picture text*/
-
+/* H1/main-heading on acccessibility, booking and menu */
 .hero-text {
   text-align: center;
   position: absolute;
@@ -108,7 +107,6 @@ body {
   color: rgb(255, 255, 255);
 }
 
-/* H1/main heading on acccessibility, booking and menu */
 .hero-page-text {
   font-size: calc(6vw + 15px);
   color: rgb(217, 141, 0);
@@ -179,7 +177,7 @@ body {
 
 /* - BUTTONS - */ /* BRUKES KUN I BOOKING OG MENU */
 
-/* Button, on booking and menu */
+/* Button, used in booking and menu */
 .button {
   background-color: rgba(217, 141, 0, 0.228);
   border: 5px solid rgb(217, 141, 0);
@@ -245,7 +243,7 @@ footer {
   padding-left: 10px;
 }
 
-/* New layout for when screen is 500px wide */
+/* New footer layout when the screen is 500px wide */
 @media screen and (max-width: 500px) {
   .footer-boxes {
     flex-direction: column;
