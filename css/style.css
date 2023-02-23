@@ -63,16 +63,6 @@ body {
   left: 16px;
 }
 
-/* Picture text for hero image Index */
-.picture-text-hero-image {
-  /* BRUEKS KUN I INDEX */
-  color: rgba(0, 0, 0, 0.431);
-  font-size: calc(9px + 0.5vw);
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
 /* The pictures on Index */ /* DE 4 NESTE KLASSENE BRUKES KUN I INDEX */
 /* Image from: https://www.pexels.com/photo/houses-in-the-mountains-5204801/ */
 .image-booking {
