@@ -21,10 +21,13 @@ article > p {
 /* Forrett, hovedrett, dessert, kaffe, etc. */
 .singel-food-group {
   width: 20%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 20px 40px 20px 40px;
+}
+
+/* Heading in each group */
+h2 {
+  font-size: 30px;
+  text-align: center;
 }
 
 /* Button holder for the menu */
@@ -51,8 +54,8 @@ button {
   color: rgb(128, 128, 128);
 }
 
-/* After 1000px the 3 food groups are displayed under and over eachother
-- makes a more phone friendly experience */
+/* Screens smaller than 1000px will have the food groups displayed under each other
+- for a more phone friendly experience */
 @media screen and (max-width: 1000px) {
   .singel-food-group {
     width: 400px;
