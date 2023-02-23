@@ -112,7 +112,7 @@ body {
   color: rgb(217, 141, 0);
 }
 
-/* Credit text on pictures */
+/* Credit text in the corner on the pictures */
 .picture-text {
   color: rgba(255, 255, 255, 0.92);
   font-size: calc(6px + 0.5vw);
