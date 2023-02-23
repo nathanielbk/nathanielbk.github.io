@@ -11,119 +11,6 @@ body {
   font-weight: 400;
 }
 
-.introduction {
-  /* BRUKES KUN I ACCESSIBILITY OG BOOKING */
-  letter-spacing: 1px;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 50%;
-  margin: auto;
-}
-
-.introduction > p {
-  margin-bottom: 10px;
-}
-
-@media screen and (max-width: 1000px) {
-  .introduction {
-    width: 70%;
-  }
-}
-
-/* Text colour */
-.orange {
-  color: #d98d00;
-}
-
-.green {
-  color: #008000;
-}
-
-/* Here you will find pictures and picture text*/
-
-.hero-text {
-  /* BRUKES I FLERE FILER */
-  text-align: center;
-  position: absolute;
-  min-width: 300px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(255, 255, 255);
-}
-
-/* Credit text on pictures */
-.picture-text {
-  /* BRUKES I FLERE FILER */
-  color: rgba(255, 255, 255, 0.92);
-  font-size: calc(6px + 0.5vw);
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-/* - HERO IMAGE AND TEXT - */
-
-/* H1/main text on all pages */
-.hero-page-text {
-  /* BRUKES I ACCESSIBILITY, BOOKING OG MENU */
-  font-size: calc(6vw + 15px);
-  color: rgb(217, 141, 0);
-}
-
-/* Image from: https://www.pexels.com/photo/black-rocky-mountain-under-the-blue-sky-5345384/ */
-.hero-image-meny {
-  /* BRUKES KUN I MENU, OBS OGSÅ LENGER NED HER */
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
-  background-image: url("/images/pexels-liam-spicer-5345384.jpg");
-  height: 20vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-/* Image from: https://www.pexels.com/photo/houses-in-the-mountains-5204801/ */
-.hero-image-booking {
-  /* BRUKES KUN I BOOKING, OBS OGSÅ LENGER NED HER */
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
-  background-image: url("/images/pexels-anastasiia-horbachenko-5204801.jpg");
-  height: 20vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-/* Image from: https://www.pexels.com/photo/snow-sea-landscape-water-5334316/ */
-.hero-image-accessibility {
-  /* BRUKES KUN I ACCESSIBILITY, OBS OGSÅ LENGER NED HER */
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
-  background-image: url("/images/pexels-christian-pfeifer-5334316.jpg");
-  height: 20vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-@media screen and (max-width: 1000px) {
-  .hero-image-booking,
-  .hero-image-meny,
-  .hero-image-accessibility {
-    height: 40vw;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .hero-image-booking,
-  .hero-image-meny,
-  .hero-image-accessibility {
-    height: 60vw;
-  }
-}
-
 /* - NAVIGATION BAR - */
 
 /* Navigation bar, main */
@@ -177,6 +64,119 @@ body {
   .topnav a {
     padding: 10px 3%;
     font-size: 3.4vw;
+  }
+}
+
+.introduction {
+  /* BRUKES KUN I ACCESSIBILITY OG BOOKING */
+  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+.introduction > p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .introduction {
+    width: 70%;
+  }
+}
+
+/* Text colour */
+.orange {
+  color: #d98d00;
+}
+
+.green {
+  color: #008000;
+}
+
+/* Here you will find pictures and picture text*/
+
+.hero-text {
+  /* BRUKES I FLERE FILER */
+  text-align: center;
+  position: absolute;
+  min-width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+}
+
+/* H1/main text on all pages */
+.hero-page-text {
+  /* BRUKES I ACCESSIBILITY, BOOKING OG MENU */
+  font-size: calc(6vw + 15px);
+  color: rgb(217, 141, 0);
+}
+
+/* Credit text on pictures */
+.picture-text {
+  /* BRUKES I FLERE FILER */
+  color: rgba(255, 255, 255, 0.92);
+  font-size: calc(6px + 0.5vw);
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* - HERO IMAGE AND TEXT - */
+
+/* Image from: https://www.pexels.com/photo/black-rocky-mountain-under-the-blue-sky-5345384/ */
+.hero-image-meny {
+  /* BRUKES KUN I MENU, OBS OGSÅ LENGER NED HER */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  background-image: url("/images/pexels-liam-spicer-5345384.jpg");
+  height: 20vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Image from: https://www.pexels.com/photo/houses-in-the-mountains-5204801/ */
+.hero-image-booking {
+  /* BRUKES KUN I BOOKING, OBS OGSÅ LENGER NED HER */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  background-image: url("/images/pexels-anastasiia-horbachenko-5204801.jpg");
+  height: 20vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Image from: https://www.pexels.com/photo/snow-sea-landscape-water-5334316/ */
+.hero-image-accessibility {
+  /* BRUKES KUN I ACCESSIBILITY, OBS OGSÅ LENGER NED HER */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  background-image: url("/images/pexels-christian-pfeifer-5334316.jpg");
+  height: 20vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-image-booking,
+  .hero-image-meny,
+  .hero-image-accessibility {
+    height: 40vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero-image-booking,
+  .hero-image-meny,
+  .hero-image-accessibility {
+    height: 60vw;
   }
 }
 
