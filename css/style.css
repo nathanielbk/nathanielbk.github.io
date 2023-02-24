@@ -1,3 +1,4 @@
+/* General styling */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -67,7 +68,7 @@ body {
   }
 }
 
-/* Used in accessibility and booking */
+/* Used in accessibility.html and booking.html */
 .introduction {
   letter-spacing: 1px;
   padding-top: 20px;
@@ -87,7 +88,7 @@ body {
   }
 }
 
-/* Text colour */
+/* Set color to text */
 .orange {
   color: #d98d00;
 }
@@ -96,7 +97,7 @@ body {
   color: #008000;
 }
 
-/* H1/main-heading on acccessibility, booking and menu */
+/* H1/main-heading on acccessibility.html, booking.html and menu.html */
 .hero-text {
   text-align: center;
   position: absolute;
@@ -112,7 +113,7 @@ body {
   color: rgb(217, 141, 0);
 }
 
-/* Credit text in the corner on the pictures */
+/* Credit text in the corner on pictures */
 .picture-text {
   color: rgba(255, 255, 255, 0.92);
   font-size: calc(6px + 0.5vw);
@@ -175,9 +176,9 @@ body {
   }
 }
 
-/* - BUTTONS - */ /* BRUKES KUN I BOOKING OG MENU */
+/* - BUTTONS - */
 
-/* Button, used in booking and menu */
+/* Button, used in booking.html and menu.html */
 .button {
   background-color: rgba(217, 141, 0, 0.228);
   border: 5px solid rgb(217, 141, 0);
