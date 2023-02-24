@@ -20,7 +20,7 @@ article > p {
 
 /* Forrett, hovedrett, dessert, kaffe, etc. */
 .singel-food-group {
-  width: 20%;
+  width: 20%; /* Should be 25%? */
   margin: 20px 40px 20px 40px;
 }
 
@@ -28,6 +28,16 @@ article > p {
 h2 {
   font-size: 30px;
   text-align: center;
+}
+
+/* Classes "orange" and "green" can be found in style.css */
+
+/* Decoration for allergy paragraph */
+.allergener {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 14px;
+  color: rgb(128, 128, 128);
 }
 
 /* Button holder for the menu */
@@ -46,19 +56,13 @@ button {
   margin-top: 10px;
 }
 
-/* Decoration for allergy paragraph */
-.allergener {
-  margin-top: 15px;
-  text-align: left;
-  font-size: 14px;
-  color: rgb(128, 128, 128);
-}
-
 /* Screens smaller than 1000px will have the food groups displayed under each other
 - for a more phone friendly experience */
 @media screen and (max-width: 1000px) {
   .singel-food-group {
-    width: 400px;
+    width: 400px; /* Should be width: 60%;? */
+    /* padding-bottom: 30px; */
+    /* border-bottom: 0.5px solid; */
   }
 
   article > div {
