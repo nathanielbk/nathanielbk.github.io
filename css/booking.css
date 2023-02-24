@@ -51,18 +51,15 @@ select {
 
 /* Code for button is in style.css */
 
-/*Media screen*/
-
-/*Map size when 1499px*/
+/* Smaller map size */
 @media screen and (max-width: 1530px) {
-  /*Kart mindre*/
   .gmap {
     width: 250px;
     height: 250px;
   }
 }
 
-/*Map and form in row, as well as map size adjust when 1019px*/
+/* Map and form in row, as well as map size adjust */
 @media screen and (max-width: 1020px) {
   .gmap {
     width: 100%;
