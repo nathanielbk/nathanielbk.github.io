@@ -208,12 +208,6 @@ footer {
   text-align: center;
 }
 
-/* Heading in footer */
-.fotter-main-text {
-  font-size: 15px;
-  padding-bottom: 15px;
-}
-
 /* Overall flex layout in footer */
 .footer-boxes {
   display: flex;
@@ -228,6 +222,12 @@ footer {
   flex-grow: 1;
   line-height: 1.3;
   justify-content: center;
+}
+
+/* Heading in footer */
+.fotter-main-text {
+  font-size: 15px;
+  padding-bottom: 15px;
 }
 
 /* Logo in the footer */
