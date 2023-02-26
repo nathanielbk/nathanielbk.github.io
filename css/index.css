@@ -38,12 +38,21 @@
   margin: 15px;
 }
 
-/* For smaller screens (Ipad pro and down), 
-view index picture under each other  */
-@media screen and (min-width: 1370px) {
-  /* MÅ ENDRES + TEKST STØRRELSE, VISES EN OG EN PÅ PC OGSÅ */
+/* For smaller screens (ipad and down) 
+- view index picture under each other, and not side by side */
+@media screen and (min-width: 1194px) {
   .text-division {
     display: flex;
+  }
+}
+/* Text under each heading 
+- Making sure the heading and text doesn't get too small */
+@media screen and (max-width: 1194px) {
+  .hero-text > p {
+    font-size: 2.5vw;
+  }
+  .hero-image h1 {
+    font-size: 6vw;
   }
 }
 
@@ -71,20 +80,6 @@ h2 a:hover {
   color: #d98d00c1;
 }
 
-/* Text under each heading */
-.index-box p {
-  font-size: 20px;
-  color: aliceblue;
-  text-shadow: 1px 1px #000000;
-}
-/* ATTENTION: THESE TWO (↑ and ↓) ARE DOING THE SAME (?): .index-box p (OVER) and .hero-text > p (UNDER) IN ADDITION
-   .hero-text isn't used for anything else - OBS: both are used further down 
-   (I moved them up to easier see) */
-
-/* Hero text for every following hero picture */
-.hero-text > p {
-  font-size: 1.4vw;
-}
 
 /* Bigger picture for large screens */
 @media screen and (min-width: 2000px) {
@@ -100,15 +95,6 @@ h2 a:hover {
   }
 }
 
-/* Making sure the heading and text doesn't get too small */
-@media screen and (max-width: 1370px) {
-  .hero-text > p {
-    font-size: 2.5vw;
-  }
-  .hero-image h1 {
-    font-size: 6vw;
-  }
-}
 
 /* The following are the 4 separate pictures */
 

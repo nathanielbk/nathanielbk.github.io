@@ -28,8 +28,9 @@ article > p {
 
 /* Heading in each group */
 h2 {
-  font-size: 30px;
+  font-size: 27px;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Classes "orange" and "green" can be found in style.css */
