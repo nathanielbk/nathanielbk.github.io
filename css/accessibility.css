@@ -1,3 +1,23 @@
+/* Text */
+.introduction {
+  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+.introduction > p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .introduction {
+    width: 70%;
+  }
+}
+
 /* Space between each paragraph */
 p {
   margin-bottom: 10px;

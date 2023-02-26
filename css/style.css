@@ -12,7 +12,7 @@ body {
   font-weight: 400;
 }
 
-/* - NAVIGATION BAR - */
+/* - NAVIGATION BAR, ALL PAGES - */
 
 /* Nav bar, main */
 .topnav {
@@ -65,26 +65,6 @@ body {
   .topnav a {
     padding: 10px 3%;
     font-size: 3.4vw;
-  }
-}
-
-/* Used in accessibility.html and booking.html */
-.introduction {
-  letter-spacing: 1px;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 50%;
-  margin: auto;
-}
-
-.introduction > p {
-  margin-bottom: 10px;
-}
-
-@media screen and (max-width: 1000px) {
-  .introduction {
-    width: 70%;
   }
 }
 

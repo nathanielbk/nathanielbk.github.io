@@ -1,4 +1,22 @@
-/* The code for the page BOOKING */
+/* Text in accessibility.html and booking.html */
+.introduction {
+  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+.introduction > p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .introduction {
+    width: 70%;
+  }
+}
 
 /* Sections for ul-list */
 #list {
