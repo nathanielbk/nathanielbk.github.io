@@ -3,7 +3,7 @@
 DATA 1200 OsloMet, konte vår 2023
 https://nathanielbk.github.io/Index.html
 
-Gruppe:
+Gruppe: 3141
 
 Studenter:
 s374923
