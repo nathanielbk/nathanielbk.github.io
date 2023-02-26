@@ -1,3 +1,5 @@
+/* Navigation bar and hero image styling in style.css */
+
 /* Menu */
 article > div {
   align-items: center;
@@ -11,7 +13,7 @@ article > p {
   margin-bottom: 10px;
 }
 
-/* All the food, and the drinks. */
+/* All the food, and the drinks */
 .food-group {
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -70,3 +72,5 @@ button {
     margin-right: 0px;
   }
 }
+
+/* Footer styling in style.css */

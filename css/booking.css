@@ -1,4 +1,6 @@
-/* Text in accessibility.html and booking.html */
+/* Navigation bar and hero image styling in style.css */
+
+/* Text */
 .introduction {
   letter-spacing: 1px;
   padding-top: 20px;
@@ -94,3 +96,5 @@ select {
     justify-content: center;
   }
 }
+
+/* Footer styling in style.css */
