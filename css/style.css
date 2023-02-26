@@ -95,11 +95,11 @@ body {
 
 /* - HERO IMAGES - */
 
-/* Image from: https://www.pexels.com/photo/black-rocky-mountain-under-the-blue-sky-5345384/ */
-.hero-image-meny {
-  /* BRUKES KUN I MENU, OBS OGSÅ LENGER NED HER */
+/* Image from: https://www.pexels.com/photo/houses-in-the-mountains-5204801/ */
+.hero-image-booking {
+  /* BRUKES KUN I BOOKING, OBS OGSÅ LENGER NED HER */
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
-  background-image: url("/images/pexels-liam-spicer-5345384.jpg");
+  background-image: url("/images/pexels-anastasiia-horbachenko-5204801.jpg");
   height: 20vw;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,11 +107,11 @@ body {
   position: relative;
 }
 
-/* Image from: https://www.pexels.com/photo/houses-in-the-mountains-5204801/ */
-.hero-image-booking {
-  /* BRUKES KUN I BOOKING, OBS OGSÅ LENGER NED HER */
+/* Image from: https://www.pexels.com/photo/black-rocky-mountain-under-the-blue-sky-5345384/ */
+.hero-image-meny {
+  /* BRUKES KUN I MENU, OBS OGSÅ LENGER NED HER */
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
-  background-image: url("/images/pexels-anastasiia-horbachenko-5204801.jpg");
+  background-image: url("/images/pexels-liam-spicer-5345384.jpg");
   height: 20vw;
   background-position: center;
   background-repeat: no-repeat;
