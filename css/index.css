@@ -68,7 +68,8 @@ h2 a:hover {
 
 /* For smaller screens (ipad and down) 
 - view index picture under each other, and not side by side */
-@media screen and (min-width: 1194px) {
+@media screen and (min-width: 1024px) {
+  /* USED TO BE 1194px */
   .text-division {
     display: flex;
   }
@@ -76,7 +77,8 @@ h2 a:hover {
 
 /* Text under each heading 
 - Making sure the heading and text doesn't get too small */
-@media screen and (max-width: 1194px) {
+@media screen and (max-width: 1024px) {
+  /* USED TO BE 1194px */
   .hero-text > p {
     font-size: 2vw;
   }
