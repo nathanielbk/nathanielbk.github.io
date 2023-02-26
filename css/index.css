@@ -63,7 +63,7 @@ h2 a:hover {
 }
 
 .hero-text > p {
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
 /* For smaller screens (ipad and down) 
@@ -92,7 +92,6 @@ h2 a:hover {
   }
 }
 
-
 /* Bigger picture for large screens */
 @media screen and (min-width: 2000px) {
   .index-box {
@@ -106,7 +105,6 @@ h2 a:hover {
     height: 250px;
   }
 }
-
 
 /* The following are the 4 separate pictures */
 
