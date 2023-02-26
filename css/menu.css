@@ -62,9 +62,9 @@ button {
 - for a more phone friendly experience */
 @media screen and (max-width: 1000px) {
   .singel-food-group {
-    width: 400px; /* Should be width: 60%;? */
-    /* padding-bottom: 30px; */
-    /* border-bottom: 0.5px solid; */
+    width: 60%; /* Used to be 400px */
+    padding-bottom: 30px; /* Wasn't here before */
+    border-bottom: 0.5px solid; /* Wasn't here before */
   }
 
   article > div {
