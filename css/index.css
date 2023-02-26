@@ -70,7 +70,7 @@ h2 a:hover {
   color: aliceblue;
   text-shadow: 1px 1px #000000;
 }
-/* THESE TWO (↑ and ↓) ARE DOING SOMEWHAT THE SAME: .index-box p (OVER) and .hero-text > p (UNDER) AND
+/* ATTENTION: THESE TWO (↑ and ↓) ARE DOING THE SAME (?): .index-box p (OVER) and .hero-text > p (UNDER) IN ADDITION
    .hero-text isn't used for anything else - OBS: both are used further down 
    (I moved them up to easier see) */
 
