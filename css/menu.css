@@ -22,8 +22,8 @@ article > p {
 
 /* Forrett, hovedrett, dessert, kaffe, etc. */
 .singel-food-group {
-  width: 20%; /* Should be 25%? */
-  margin: 20px 40px 20px 40px;
+  width: 25%;
+  margin: 25px;
 }
 
 /* Heading in each group */
@@ -61,11 +61,11 @@ button {
 
 /* Screens smaller than 1000px will have the food groups displayed under each other
 - for a more phone friendly experience */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 100px) {
   .singel-food-group {
-    width: 60%; /* Used to be 400px */
-    padding-bottom: 30px; /* Wasn't here before */
-    border-bottom: 0.5px solid; /* Wasn't here before */
+    width: 60%;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid;
   }
 
   article > div {
