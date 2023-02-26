@@ -38,24 +38,6 @@
   margin: 15px;
 }
 
-/* For smaller screens (ipad and down) 
-- view index picture under each other, and not side by side */
-@media screen and (min-width: 1194px) {
-  .text-division {
-    display: flex;
-  }
-}
-/* Text under each heading 
-- Making sure the heading and text doesn't get too small */
-@media screen and (max-width: 1194px) {
-  .hero-text > p {
-    font-size: 2.5vw;
-  }
-  .hero-image h1 {
-    font-size: 6vw;
-  }
-}
-
 /* Pictureframe division, the four pictures */
 .index-box {
   flex: 1;
@@ -78,6 +60,36 @@ h2 a {
 
 h2 a:hover {
   color: #d98d00c1;
+}
+
+.hero-text > p {
+  font-size: 1vw;
+}
+
+/* For smaller screens (ipad and down) 
+- view index picture under each other, and not side by side */
+@media screen and (min-width: 1194px) {
+  .text-division {
+    display: flex;
+  }
+}
+
+/* Text under each heading 
+- Making sure the heading and text doesn't get too small */
+@media screen and (max-width: 1194px) {
+  .hero-text > p {
+    font-size: 2vw;
+  }
+  .hero-image h1 {
+    font-size: 6vw;
+  }
+}
+
+/* Making sure the text doesn't get too small on phone */
+@media screen and (max-width: 600px) {
+  .hero-text > p {
+    font-size: 2.5vw;
+  }
 }
 
 
