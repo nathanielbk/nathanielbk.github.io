@@ -68,15 +68,6 @@ body {
   }
 }
 
-/* Set color to text */
-.orange {
-  color: #d98d00;
-}
-
-.green {
-  color: #008000;
-}
-
 /* H1/main-heading on acccessibility.html, booking.html and menu.html */
 .hero-text {
   text-align: center;
@@ -154,6 +145,15 @@ body {
   .hero-image-accessibility {
     height: 60vw;
   }
+}
+
+/* Set color to text */
+.orange {
+  color: #d98d00;
+}
+
+.green {
+  color: #008000;
 }
 
 /* - BUTTONS - */
