@@ -13,9 +13,9 @@
 
 /* Text box on each slide */
 .text-boxes {
-  width: 65%; /*60vw*/
+  width: 65%;
   top: 50%;
-  margin-left: 20px; /*2 rem*/
+  margin-left: 20px;
   padding: 20px;
   position: absolute;
   transform: translateY(-50%);
@@ -123,6 +123,8 @@ li > a {
 li > a:hover {
   color: rgb(217, 141, 0);
 }
+
+/* - Color palettes for each slide - */
 
 /* First slide screen - Social Media */
 #slide1 {
