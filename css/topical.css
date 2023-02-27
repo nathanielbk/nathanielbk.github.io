@@ -224,7 +224,7 @@ li > a:hover {
 
 @media screen and (max-width: 500px) {
   /* Navigation bar */
-  .topnav a {
+  .nav a {
     padding: 10px 3%;
     font-size: 3.4vw;
   }
