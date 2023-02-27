@@ -61,7 +61,7 @@ button {
 
 /* Screens smaller than 1000px will have the food groups displayed under each other
 - for a more phone friendly experience */
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 1000px) {
   .singel-food-group {
     width: 60%;
     padding-bottom: 30px;

@@ -15,7 +15,7 @@ body {
 /* - NAVIGATION BAR, ALL PAGES - */
 
 /* Nav bar, main */
-.topnav {
+.nav {
   overflow: hidden;
   background-color: #333;
   position: sticky;
@@ -25,7 +25,7 @@ body {
 }
 
 /* Nav bar, boxes */
-.topnav a {
+.nav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -47,7 +47,7 @@ body {
 }
 
 /* Nav bar, active button */
-.topnav a.active {
+.nav a.active {
   color: orange;
 }
 
@@ -62,7 +62,7 @@ body {
 
 @media screen and (max-width: 500px) {
   /* Navigation bar */
-  .topnav a {
+  .nav a {
     padding: 10px 3%;
     font-size: 3.4vw;
   }
