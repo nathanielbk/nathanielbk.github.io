@@ -26,6 +26,6 @@ p {
 }
 
 /* Image width to match text width */
-img {
+.accessibilityImg {
   width: 100%;
 }
